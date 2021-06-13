@@ -1,0 +1,23 @@
+.addContestant{
+    position: relative;
+    left: 50%;
+    transform: translate(-65%,10%);
+
+    background-color: whitesmoke;
+    width: fit-content;
+    height: max-content;
+    box-sizing: border-box;
+    border: solid;
+    margin: 50px;
+    padding: 10px;
+}
+h1{
+    padding-top: 60px;
+}
+.addContestant__form{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100px;
+    justify-content: space-evenly;
+}

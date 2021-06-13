@@ -1,0 +1,25 @@
+.signin{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(50%);
+}
+.signin__branding > p{
+    font-size: large;
+    font-weight: 200;
+    margin-top: -1px;
+}
+.signin__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    box-sizing: border-box;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: solid;
+    margin-top: -50px;
+
+}
